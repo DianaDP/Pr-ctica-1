@@ -1,12 +1,30 @@
-body {
+body, html{
 	background: peru;
+	font-size: 16px;
+}
+/*HEADER*/
+
+/*BANNER*/
+.banner{
+	background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050");
+	height: 100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
 }
 
-header {
-	background: white;
-	display: flex;
-	justify-content: space-between;
-	height:50px;
-	border-button: 1px solid gray;
-	align-items: center
+.banner-title{
+	font-size:4em;
+
+
+}
+
+.banner-subtitle{
+	font-size:2em;
+	text-align: center;
 }
