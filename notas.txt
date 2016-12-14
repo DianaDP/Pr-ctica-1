@@ -1,0 +1,35 @@
+Etiqueta display
+
+
+display: block (ocupa el total de la pantalla) elementos uno debajo del otro
+
+display: inline-block (ocupa el ancho de su contenido) elementos uno al lado del otro
+
+display: flex---- afecta a los hijos directos del div / elementos uno al aldo del otro
+
+
+
+--------------
+Normalize css
+Se descarga para que todosl los navegadores muestren las paginas iguales.
+Hace un reset de css en todos los navegadores
+
+
+-------------
+minificar: reducir todos los epacione n el codigo para que cargue mas rapido
+
+----
+siempre primero linkear librerias y despues si los css o js propios
+
+----------------
+vh - viewport height - Toma la altura de la pantalla
+
+---------
+em - tamaño de texto con base en un tamaño establecido en el estilo de todo el html
+
+------
+sass - preprocesador CSS. Detecta las palabras que ya se escribieron para no tener que repetirlas.
+
+funciona con "node js" 
+
+
