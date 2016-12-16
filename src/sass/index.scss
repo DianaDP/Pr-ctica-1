@@ -70,12 +70,62 @@ header{
 	width: 95%;
 	margin: 0 auto;
 	text-align: center;
+		&-title{
+		font-size: 2.2em;
+		text-align: center;
+		}
 	&-contentCols{
 		display: flex;
 		&-col{
 			margin: 0 25px;
 			.title{
 				font-size: 2.2em;
+			}
+		}
+	}
+}
+
+/*PREMIUM*/
+.premium{
+	width: 87%;
+	margin: 0 auto;
+	&-title{
+		font-size: 2.2em;
+		text-align: center;
+	}
+	&-text{
+		text-align: center;
+	}
+	&-contentCards{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&-card{
+			max-width: 380px;
+			text-align: center;
+			margin-bottom: 40px;
+			.img{
+				width: 100%;
+			}
+			.subtitle{
+				font-size:1.25em;
+				font-weight: normal;
+				margin: 10px 0 0;
+			}
+			.title{
+				margin: 0;
+				font-size:1.5em;
+			}
+			.contentButtons{
+				&-button{
+					border-radius: 20px;
+					border: 1px solid blue;
+					background: gray;
+					padding: 8px 14px;
+					color: #FFF;
+					font-size: 0.9em;
+					font-weight: 500;
+				}
 			}
 		}
 	}
