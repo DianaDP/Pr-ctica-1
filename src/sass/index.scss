@@ -1,4 +1,4 @@
-body, html{
+body, html {
 	background: peru;
 	font-size: 16px;
 }
@@ -6,11 +6,11 @@ body, html{
 /*UTILIDADES*/
 .u-dash {
 	text-align: center;
-	color: black;
+	color: #fff;
 }
 
 /*HEADER*/
-header{
+.header {
 	background: white;
 	display: flex;
 	justify-content: space-between;
@@ -20,44 +20,43 @@ header{
 }
 
 /*BANNER*/
-.banner{
+.banner {
 	background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050");
 	height: 100vh;
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
-	display:flex;
+	color: #fff;
+	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	color: white;
-	&-title{
-		font-size:4em;
+	align-items: center;
+	&-title {
+		font-size: 4em;
 	}
-	&-subtitle{
-		font-size:2em;
+	&-subtitle {
+		font-size: 2em;
 		text-align: center;
 	}
 }
 
 /*ABOUT*/
-.about{
+.about {
 	width: 74%;
 	margin: 0 auto;
-	&-title{
+	&-title {
 		font-size: 2.2em;
 		text-align: center;
 	}
-	&-text{
-		font-size: 1.5em;
+	&-text {
 		text-align: center;
 	}
 	&-contentCols {
 		display: flex;
 		justify-content: space-around;
-		&-col{
+		&-col {
 			width: 30%;
-			.img{
+			.img {
 				width: 100%;
 				margin-bottom: 30px;
 			}
@@ -66,65 +65,71 @@ header{
 }
 
 /*WHAT*/
-.what{
+.what {
 	width: 95%;
 	margin: 0 auto;
-	text-align: center;
-		&-title{
+	&-title {
 		font-size: 2.2em;
 		text-align: center;
-		}
-	&-contentCols{
+	}
+	&-contentCols {
 		display: flex;
-		&-col{
+		&-col {
 			margin: 0 25px;
-			.title{
-				font-size: 2.2em;
-			}
 		}
 	}
 }
 
-/*PREMIUM*/
-.premium{
-	width: 87%;
+// PREMIUM
+.premium {
+	width: 95%;
 	margin: 0 auto;
-	&-title{
+	&-title {
 		font-size: 2.2em;
 		text-align: center;
 	}
-	&-text{
+	&-text {
 		text-align: center;
 	}
-	&-contentCards{
+	&-contentCards {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		&-card{
-			max-width: 380px;
+		text-align: center;
+		&-card {
+			max-width: 32.5%;
 			text-align: center;
 			margin-bottom: 40px;
-			.img{
+			.img {
 				width: 100%;
 			}
-			.subtitle{
-				font-size:1.25em;
+			.subtitle {
+				font-size: 1.25em;
 				font-weight: normal;
 				margin: 10px 0 0;
+				color: #898989;
 			}
-			.title{
+			.text {
+				color: #898989;
+				font-size: .9em;
+			}
+			.title {
+				font-size: 1.5em;
 				margin: 0;
-				font-size:1.5em;
 			}
-			.contentButtons{
-				&-button{
+			.contentButtons {
+				&-button {
 					border-radius: 20px;
-					border: 1px solid blue;
-					background: gray;
+					border: 1px solid #898989;
+					background: #fff;
 					padding: 8px 14px;
-					color: #FFF;
-					font-size: 0.9em;
-					font-weight: 500;
+					color: #898989;
+					font-size: 0.8em;
+					&:nth-child(2) {
+						background: gray;
+						color: white;
+
+					}
 				}
 			}
 		}
