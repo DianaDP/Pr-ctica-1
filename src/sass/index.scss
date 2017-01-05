@@ -194,10 +194,44 @@ body, html {
 			}
 			.subtitle {
 				font-size: 1em;
+				margin-bottom: 15px;
 			}
 			.number {
-				font-size: 1.25em;
+				font-size: 2.2em;
+				font-weight: 100;
+				color: peru;
 			}
 		}
+	}
+}
+
+// FOOTER
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background: #242424;
+	color: white;
+	height: 70px;
+	line-height: 70px;
+	font-size: 0.8em;
+	margin-top: 140px;
+	&-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		&-item {
+			margin-right: 15px;
+			.link{
+				text-decoration: none;
+				color: #777;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+	}
+	&-text{
+		margin: 0;
 	}
 }
