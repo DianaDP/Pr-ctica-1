@@ -6,6 +6,24 @@ body, html {
 .u-dash {
 	text-align: center;
 	color: peru;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+	margin: 0 auto;
+	&:after {
+		width: 40%;
+		content: "";
+		border: 1px solid;
+	}
+	&:before {
+		width: 40%;
+		content: "";
+		border: 1px solid;
+	}
+}
+.u-container {
+	padding: 0 4%;
 }
 
 /*HEADER*/
@@ -80,7 +98,6 @@ body, html {
 
 /*WHAT*/
 .what {
-	width: 95%;
 	margin: 0 auto;
 	text-align: center;
 	&-title {
@@ -94,6 +111,7 @@ body, html {
 			margin: 0 25px;
 			.icon {
 				font-size:6em;
+				color: peru;
 			}
 		}
 	}
@@ -101,7 +119,6 @@ body, html {
 
 // PREMIUM
 .premium {
-	width: 95%;
 	margin: 0 auto;
 	&-title {
 		font-size: 2.2em;
@@ -156,6 +173,7 @@ body, html {
 }
 /*TEAM*/
 .team {
+	padding: 0 4%;
 	text-align: center;
 	&-title {
 		font-size: 2.2em;
@@ -198,6 +216,7 @@ body, html {
 
 // NUMBERS
 .numbers{
+	margin-top: 150px;
 	text-align:center;
 	&-title {
 		font-size: 2.2em;
